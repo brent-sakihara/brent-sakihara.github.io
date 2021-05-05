@@ -155,9 +155,22 @@ div.icons{
   font-size: 2vw;
   font-family: 'Shippori Mincho B1', sans-serif;
 }
-.fab{
+.fab, .far{
   color:tan;
+  cursor:pointer;
 }
-.fab:hover{
-  color:rgb(240, 240, 167);
+.fab:hover, .far:hover{
+  color:rgb(243, 243, 197);
+}
+
+#arrow{
+  position: fixed;
+  bottom: 3em;
+  right: 3em;
+  cursor: pointer;
+  opacity:0;
+}
+
+#arrow.visible{
+  opacity: 1;
 }
