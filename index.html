@@ -13,7 +13,7 @@
     <nav>
         <ul class = "nav">
             <li class = "leftnav">Brent Sakihara</li>
-            <li class = "rightnav"><a href="#header">Home</a></li>
+            <li class = "rightnav"><a href="#header" id = 'top'>Home</a></li>
             <li class = "rightnav"><a href="#about">About</a></li>
             <li class = "rightnav"><a href="#skills">Skills</a></li>
             <li class = "rightnav"><a href="#projects">Projects</a></li>
@@ -43,14 +43,14 @@
         <h2 class = "title">Skills</h2>
         <div class = "container">
             <div class="left column">
-                <h3>Programming Languages</h3>
+                <h3 class = 'skill'>Programming Languages</h3>
             <ul>
                 <li>C++</li>
                 <li>JavaScript</li>
             </ul>
             </div>
             <div class = "center column">
-                <h3>Web Technologies</h3>
+                <h3 class = 'skill'>Web Technologies</h3>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -58,24 +58,29 @@
             </ul>
             </div>
             <div class = "right column">
-                <h3>Other</h3>
+                <h3 class = 'skill'>Other</h3>
             <ul>
-                <li>Git</li>
+                <li>Git/Github</li>
                 <li>Latex</li>
+                <li>Visual Studio Code</li>
             </ul>
             </div>
         </div>
     </div>
     <div id="projects" class ="section">
-        <h2 class = "title">Projects</h2>
+        <h2 class = "title" id = 'ptitle'>Projects</h2>
         <div id = "projectc">
-            <h3>JavaScript Calculator</h3>
-            <p>Implemented a basic calculator using React, Javascript, HTML/CSS</p>
-            <h3>Pomodoro Clock</h3>
-            <p>Coded a pomodoro clock that tracks and can increment or decrement session or break time 
+            <h3 class = 'project'>Web Scraper</h3>
+            <p class = 'projectdescription'>Utilized Beautiful Soup and python to scrape software developer jobs on Indeed</p>
+            <h3 class = 'project'>Discord Bot</h3>
+            <p class = 'projectdescription'>Created a discord bot with multiple functionalities such as playing music, image scraping, and making embeds</p>
+            <h3 class = 'project'>JavaScript Calculator</h3>
+            <p class = 'projectdescription'>Implemented a basic calculator using React, Javascript, HTML/CSS</p>
+            <h3 class = 'project'>Pomodoro Clock</h3>
+            <p class = 'projectdescription'>Coded a pomodoro clock that tracks and can increment or decrement session or break time 
                 using React, Javascript, HTML/CSS</p>
-            <h3>Markdown Previewer</h3>
-            <p>Utilized React, Javascript, and HTML/CSS to create an active markdown previewer</p>
+            <h3 class = 'project'>Markdown Previewer</h3>
+            <p class = 'projectdescription'>Utilized React, Javascript, and HTML/CSS to create an active markdown previewer</p>
         </div>
     </div>
     <div id= "contact">
