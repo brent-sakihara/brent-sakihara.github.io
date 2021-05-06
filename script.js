@@ -16,5 +16,7 @@ window.addEventListener("scroll", function(event){
 
 upbutton.addEventListener('click', function(event){
     event.preventDefault();
-    documentElement.scrollTop = 0;
+    if(upbutton.classList.contains('visible')){
+        documentElement.scrollTop = 0;
+    }
 })

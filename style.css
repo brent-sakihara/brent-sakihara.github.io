@@ -57,10 +57,12 @@ a:hover{
   color:black;
   text-decoration:none;
 }
+/*
 a:active{
   color:blue;
   text-decoration:none;
 }
+*/
 
 #about{
   text-align: center;
@@ -170,7 +172,6 @@ div.icons{
   cursor: pointer;
   opacity:0;
 }
-
 #arrow.visible{
   opacity: 1;
 }
