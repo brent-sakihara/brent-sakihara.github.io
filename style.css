@@ -140,13 +140,13 @@ h2{
 
 #projectc{
   margin-top: 6vh;
-  text-align: center;
 }
 
 .project{
 margin-bottom: 2vh;
 margin-top: 2vh;
 font-weight: bold;
+text-align: center;
 }
 .projectdescription{
   width: 40vw;
